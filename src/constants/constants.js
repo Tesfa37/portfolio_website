@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Modern UI/UX GPT-3',
     description: "A modern UI/UX design project inspired by the OpenAI GPT-3 model. The project showcases a clean and responsive design built with React and CSS.",
-    image: '/portfolio_website/public/images/1.png',
+    image: 'public/images/1.png',
     tags: ['React', 'CSS'],
     source: 'https://github.com/Tesfa37/modern_ui_ux_gpt3',
     visit: 'https://tesfa37.github.io/modern_ui_ux_gpt3/',
