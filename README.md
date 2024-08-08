@@ -4,21 +4,35 @@
 
 ![My Personal Portfolio](https://github.com/Tesfa37/portfolio_website/blob/main/public/images/Screenshot.png)
 
-### About Me
-Hi! I'm Tesfatsion (Tesfa) Desta, a passionate software developer specializing in Full-Stack Development. Welcome to my personal portfolio where I showcase my projects and skills.
-
 ## Introduction
-This portfolio was built using modern web development technologies to highlight my skills and projects. It includes various sections such as About Me, Projects, Skills, and Contact.
 
-### Features
+Welcome to my personal portfolio! This project showcases my skills and projects as a software developer. It's built with React, Next.js, and CSS to provide a modern and responsive user experience.
+
+## Features
+
 - **Responsive Design**: Ensuring the portfolio looks great on all devices.
-- **Modern UI/UX**: A clean and modern design to make a strong impression.
-- **Interactive Elements**: Engaging components to showcase my work dynamically.
-- **Easy Navigation**: Well-structured and easy to navigate layout.
+- **Modern UI/UX**: A sleek and contemporary design to make a strong impression.
+- **Interactive Elements**: Engaging components that enhance the user experience.
+- **Easy Navigation**: A well-structured layout that makes navigation intuitive.
 
 ## Technologies Used
+
 - **React**: For building the user interface.
-- **Tailwind CSS**: For styling and layout.
-- **Vite**: As the build tool for a fast development experience.
+- **Next.js**: For server-side rendering and static site generation.
+- **CSS**: For styling and layout.
 - **GitHub Pages**: For deployment.
 
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+- Node.js and npm installed on your local machine.
+
+### Installation
+
+1. **Clone the repo**
+
+   ```bash
+   git clone https://github.com/Tesfa37/portfolio_website.git
