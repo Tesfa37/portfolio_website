@@ -2,7 +2,7 @@
 
 ### [Live Site](https://tesfa37.github.io/portfolio_website/)
 
-![My Personal Portfolio](https://tesfa37.github.io/portfolio_website/)
+![My Personal Portfolio](https://github.com/Tesfa37/portfolio_website/blob/main/public/images/Screenshot.png)
 
 ### About Me
 Hi! I'm Tesfatsion (Tesfa) Desta, a passionate software developer specializing in Full-Stack Development. Welcome to my personal portfolio where I showcase my projects and skills.
