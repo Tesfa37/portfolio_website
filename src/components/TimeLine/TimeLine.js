@@ -44,7 +44,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I'm Tesfatsion Desta, a passionate software developer with a focus on modern web development technologies. I've worked on various projects, from front-end design to back-end system administration and network management. My journey in tech started in 2019, and since then, I've continually developed my skills and taken on new challenges to improve my craft. My goal is to leverage my expertise to create impactful and innovative solutions.
+      I'm Tesfatsion Desta, an IT professional with a passion for system administration, IT security, and software development. I excel at optimizing system performance, enhancing security measures, and managing complex IT environments. With a focus on leveraging cloud technologies and mitigating operational risks, I lead projects that drive efficiency and elevate user experiences. As a certified AWS DevOps Engineer and CompTIA Cybersecurity Analyst, I am dedicated to creating secure and efficient solutions in the ever-evolving tech landscape.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
