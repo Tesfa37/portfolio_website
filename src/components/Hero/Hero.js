@@ -12,7 +12,7 @@ const Hero = (props) => (
           Welcome to <br />My Digital Space
         </SectionTitle>
         <SectionText>
-          Hello! I'm Tesfatsion Desta, a dedicated and innovative software developer with a passion for crafting beautiful and functional web applications. With expertise in modern web development technologies, I aim to deliver exceptional digital experiences. Dive into my portfolio to discover my journey, projects, and the skills I've honed over the years.
+          Hello! I'm Tesfatsion Desta,<br /> IT professional with experience in system administration, IT security, and software development.
         </SectionText>
         <a href="#projects" style={{ textDecoration: 'none' }}>
           <Button onClick={props.handleClick}>Explore My Work</Button>

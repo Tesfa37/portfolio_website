@@ -4,15 +4,16 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
+  { text: 'AWS Certified DevOps Engineer Professional '},
+  { text: 'CompTIA Cybersecurity Analyst (CySA+)' },
 ];
 
 const Acomplishments = () => (
   <Section>
-    <SectionTitle></SectionTitle>
+    <SectionTitle>Certifications</SectionTitle>
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
-          <BoxNum>{`${card.number}+`}</BoxNum>
           <BoxText>{card.text}</BoxText>
         </Box>
       ))}
