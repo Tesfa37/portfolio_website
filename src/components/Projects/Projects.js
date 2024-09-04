@@ -12,6 +12,7 @@ const Projects = () => (
       {projects.map((p, i) => {
         return (
           <BlogCard key={i}>
+            <Img src={p.image} alt={p.title} /> {/* Add this line to include images */}
             <TitleContent>
               <HeaderThree title>{p.title}</HeaderThree>
               <Hr />
