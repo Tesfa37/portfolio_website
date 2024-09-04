@@ -1,39 +1,38 @@
-import React from 'react'
-import { AiFillPhone, AiOutlineMail } from 'react-icons/ai'
-import { FaLocationArrow } from "react-icons/fa"
-
-import { DropDownContainer, DropDownIcon, DropDownItem, DropDownItemDesc, DropDownItemTitle, DropDownTextContainer } from './NavDropDown'
+import React from 'react';
+import { AiFillPhone, AiOutlineMail } from 'react-icons/ai';
+import { FaLocationArrow } from "react-icons/fa";
+import { DropDownContainer, DropDownIcon, DropDownItem, DropDownItemDesc, DropDownItemTitle, DropDownTextContainer } from './NavDropDown';
 
 const NavDropDown = (props) => (
   <DropDownContainer active={props.isOpen}>
-    <DropDownItem href="#" target="_blank" rel="noreferrer">
+    <DropDownItem href="#projects">  {/* Ensure correct href */}
       <DropDownIcon>
-        <AiFillPhone/>
+        <AiFillPhone />
       </DropDownIcon>
       <DropDownTextContainer>
-        <DropDownItemTitle>Phone</DropDownItemTitle>
-        <DropDownItemDesc>Let's get together and have a chat?'</DropDownItemDesc>
+        <DropDownItemTitle>Projects</DropDownItemTitle>
+        <DropDownItemDesc>Explore my recent projects</DropDownItemDesc>
       </DropDownTextContainer>
     </DropDownItem>
-    <DropDownItem href="#" target="_blank" rel="noreferrer">
+    <DropDownItem href="#technologies">  {/* Ensure correct href */}
       <DropDownIcon>
-      <AiOutlineMail/>
+        <AiOutlineMail />
       </DropDownIcon>
       <DropDownTextContainer>
-        <DropDownItemTitle>Email</DropDownItemTitle>
-        <DropDownItemDesc>If you want to talk jus send a message and I'll get back</DropDownItemDesc>
+        <DropDownItemTitle>Technologies</DropDownItemTitle>
+        <DropDownItemDesc>Check out the technologies I work with</DropDownItemDesc>
       </DropDownTextContainer>
     </DropDownItem>
-    <DropDownItem href="#" target="_blank" rel="noreferrer">
+    <DropDownItem href="#about">  {/* Ensure correct href */}
       <DropDownIcon>
-      <FaLocationArrow/>
+        <FaLocationArrow />
       </DropDownIcon>
       <DropDownTextContainer>
-        <DropDownItemTitle>Address</DropDownItemTitle>
-        <DropDownItemDesc>1405, Angelus Dr, Florissant. Mo</DropDownItemDesc>
+        <DropDownItemTitle>About</DropDownItemTitle>
+        <DropDownItemDesc>Learn more about me</DropDownItemDesc>
       </DropDownTextContainer>
     </DropDownItem>
   </DropDownContainer>
 );
 
-export default NavDropDown
+export default NavDropDown;

@@ -1,61 +1,37 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend, DiDatabase, DiPython, DiJava, DiJavascript, DiHtml5, DiCss3, DiWindows } from 'react-icons/di';
+import { DiAws, DiTerminal, DiDatabase, DiReact, DiFirebase, DiWindows, DiPython, DiJava, DiJavascript, DiHtml5, DiCss3, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Technologies & Skills</SectionTitle>
     <SectionText>
-      I've worked with a range of technologies in the web development world, system administration, and network management.
+      I have a broad skill set that spans software development, IT security, system administration, and network management. My experience allows me to contribute effectively across the entire technology stack.
     </SectionText>
     <List>
       <ListItem>
         <picture>
-          <DiReact size="3rem" />
+          <DiAws size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>DevOps & Cloud</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js, HTML, CSS, Tailwind CSS
+            AWS DevOps, Automation Tools, CI/CD Pipelines
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiFirebase size="3rem" />
+          <DiTerminal size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>System Administration & Scripting</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node.js, Databases
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            tools like Figma
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiWindows size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>System Administration</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Microsoft 365, OnBase, Juniper, AWS, PowerShell, SCCM
+            Expertise in <br />
+            Microsoft 365, PowerShell, SCCM, Juniper
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -64,10 +40,22 @@ const Technologies = () =>  (
           <DiDatabase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Network Management</ListTitle>
+          <ListTitle>Back-End & Databases</ListTitle>
+          <ListParagraph>
+            Proficient in <br />
+            Node.js, various Databases, OnBase by Hyland
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiReact size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Front-End Development</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Wireless Access Points, Network Expansion, Data Center Switches
+            React.js, HTML, CSS, Tailwind CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -76,10 +64,34 @@ const Technologies = () =>  (
           <DiPython size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Programming Languages</ListTitle>
+          <ListTitle>Programming & Languages</ListTitle>
+          <ListParagraph>
+            Proficient in <br />
+            Python, C++, Java, JavaScript
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiFirebase size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Network & Security Management</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Python, C++, Java, JavaScript
+            Wireless Access Points, Network Expansion, SIEM tools, Incident Response
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiZend size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>UI/UX Design</ListTitle>
+          <ListParagraph>
+            Skilled in <br />
+            Figma, user-centric interface design
           </ListParagraph>
         </ListContainer>
       </ListItem>
